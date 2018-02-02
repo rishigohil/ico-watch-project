@@ -1,0 +1,31 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="row" style="text-align:center">
+  <div class="col-md-12">
+    <form role="form">
+      <div class="input-group input-content">
+        Is <input id="txtTokenName" type="text" [(ngModel)]="tokenName" name="icoName" class="form-control search-form text-truncate" placeholder="Token Name"> a Scam?
+      </div>
+
+      <input type="submit" style="visibility:hidden" (click)="CheckToken()" />
+    </form>
+  </div>
+  <hr />
+</div>
+
+<div class="row center-content">
+  <div class="table-responsive">
+    <table class="table table-condensed table-bordered">
+      <tr *ngFor="let item of apiValues">
+        <td>
+          <span class="glyphicon glyphicon-star"></span>
+        </td>
+        <td>
+          {{item.icoName}}
+        </td>
+        <td>
+          {{item.icoDescription}}
+        </td>
+      </tr>
+    </table>
+  </div>
+</div>

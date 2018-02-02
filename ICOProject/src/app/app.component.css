@@ -1,0 +1,34 @@
+.center-content {
+  max-width: 500px;
+  margin: auto;
+}
+
+.input-content {
+  font-size: 3em;
+  margin-top: 40px;
+  width: 100%;
+}
+
+.search-form {
+  border-radius: 30px 30px 30px 30px !important;
+  width: 25%;
+}
+
+.inner-addon {
+  position: relative;
+}
+
+/*span.glyphicon.glyphicon-star {
+  background-color: #eee;
+  top: 0px;
+  border: 1px solid #000;
+  border-radius: 8px;
+  height: 50px !important;
+  padding-top: 17px;
+  text-align: center;
+  width: 50px !important;
+}*/
+
+.login-button{
+  padding-top:8px;
+}
