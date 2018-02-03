@@ -24,7 +24,7 @@ export class AppComponent implements OnInit {
         });
     }
 
-    CheckToken(event) {
+    CheckToken() {
       var icoName = this.tokenName;
       console.log(icoName);
 
