@@ -51,7 +51,7 @@ namespace ICOProject.Controllers
         return BadRequest("Invalid paramters.");
       }
 
-      return Ok(_exchangeService.GetIcoScamStatus(icoName););
+      return Ok(_exchangeService.GetIcoScamStatus(icoName));
     }
   }
 }
